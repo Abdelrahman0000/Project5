@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-btn,.icon1,.icon2{
+    background-color: #e7e4ff;
+    
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out
+}
+.nav-btn:hover,.icon1:hover,.icon2:hover{
+    background-color: #6048fe;
+    color: white;
+    font-weight: bolder;
+}
+.logo-shape{
+    border-radius: 50%;
+    clip-path: polygon(49% 76%, 100% 50% ,0% 0%, 0% 100%);
+    padding: 20px;
+    background-color: #6048fe;
+    color: white;
+    font-weight: bolder;
+}
+.logo{
+    color: #6048fe !important;
+    font-weight: bolder;
+}
+
+.my-img{
+    
+    transform: skew(-30deg, 20deg);
+    border-radius: 40%;
+}
+@media(max-width:767px){
+    .my-img{
+        
+        transform: skew(0deg, 0deg);
+        border-radius: 0;
+    }}
+.bg-1{
+    background-color: #6048fe;
+}
+.bg2{
+    background-color: #ffffff;
+}
+
+
+.img1,.img2,.img3{
+   border-radius: 51% 49% 46% 54% / 69% 71% 29% 31%   ;
+}
+.my-pos1,.my-pos2,.my-pos3{
+    background-color: #6048fe;
+color: white;
+position: absolute;
+top: 0px;
+left: 0px;
+display: none;
+width: 100%;
+height: 100%;
+border-radius: 51% 49% 46% 54% / 69% 71% 29% 31%   ;
+}
+.my-curser{
+    cursor: pointer;
+}
+.why-d{
+    height: 200px;
+}
+.icon1,.icon2{
+
+
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.my-posy{
+    position: relative;
+    right: 0px;
+}
+.my-about{
+    position: fixed;
+left: 0px;
+top: 0px;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.64);
+z-index: 1000;
+}
+.about-img{
+    position: absolute;
+height: 40%;
+width: 50%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.do-img{ background-color: #6048fe;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.why-img{
+    position: relative;
+    z-index: 0;
+}
+.why-inner{
+    z-index: 100;
+    position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background-color: #6048fe;
+}
+.icon3{
+    position: absolute;
+   color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+height: 10%;
+width: 10%;
+padding: 3px;
+font-weight: bolder;
+font-size: 20px;
+
+}
+.my-img2{
+    border-radius: 51% 49% 46% 54% / 36% 65% 35% 64%    ;
+}
+
+
